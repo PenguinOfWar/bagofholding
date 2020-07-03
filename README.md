@@ -12,7 +12,7 @@ The interactive demos for Reducks leverage `react`, `react-redux` and the wonder
 
 If you are integrating Reducks into a `react-redux` application I recommend browsing the source code of the demo pages.
 
-[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/)
+[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/) ![Unit Tests](https://github.com/PenguinOfWar/bagofholding/workflows/Unit%20Tests/badge.svg) ![GitHub Pages](https://github.com/PenguinOfWar/bagofholding/workflows/GitHub%20Pages/badge.svg)
 
 ## Support
 
