@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-external",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "",
   "main": "is-external.js",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "Darryl Walker <darryljwalker@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "67a64f42ae4e71c1c1c38bf3a2bf6434d9e02f9e"
 }
