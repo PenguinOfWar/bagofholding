@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bagofholding/static/css/main.f9ef0eef.chunk.css",
-    "main.js": "/bagofholding/static/js/main.f4117689.chunk.js",
-    "main.js.map": "/bagofholding/static/js/main.f4117689.chunk.js.map",
+    "main.js": "/bagofholding/static/js/main.0a073dcc.chunk.js",
+    "main.js.map": "/bagofholding/static/js/main.0a073dcc.chunk.js.map",
     "runtime-main.js": "/bagofholding/static/js/runtime-main.247eac61.js",
     "runtime-main.js.map": "/bagofholding/static/js/runtime-main.247eac61.js.map",
-    "static/js/2.4fde2e27.chunk.js": "/bagofholding/static/js/2.4fde2e27.chunk.js",
-    "static/js/2.4fde2e27.chunk.js.map": "/bagofholding/static/js/2.4fde2e27.chunk.js.map",
+    "static/js/2.c11c9db2.chunk.js": "/bagofholding/static/js/2.c11c9db2.chunk.js",
+    "static/js/2.c11c9db2.chunk.js.map": "/bagofholding/static/js/2.c11c9db2.chunk.js.map",
     "index.html": "/bagofholding/index.html",
-    "precache-manifest.fe859e1a344c74ef22908916c3e81125.js": "/bagofholding/precache-manifest.fe859e1a344c74ef22908916c3e81125.js",
+    "precache-manifest.defc9a80d5a27719dee9cd61645cf025.js": "/bagofholding/precache-manifest.defc9a80d5a27719dee9cd61645cf025.js",
     "service-worker.js": "/bagofholding/service-worker.js",
     "static/css/main.f9ef0eef.chunk.css.map": "/bagofholding/static/css/main.f9ef0eef.chunk.css.map",
-    "static/js/2.4fde2e27.chunk.js.LICENSE.txt": "/bagofholding/static/js/2.4fde2e27.chunk.js.LICENSE.txt"
+    "static/js/2.c11c9db2.chunk.js.LICENSE.txt": "/bagofholding/static/js/2.c11c9db2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.247eac61.js",
-    "static/js/2.4fde2e27.chunk.js",
+    "static/js/2.c11c9db2.chunk.js",
     "static/css/main.f9ef0eef.chunk.css",
-    "static/js/main.f4117689.chunk.js"
+    "static/js/main.0a073dcc.chunk.js"
   ]
 }
