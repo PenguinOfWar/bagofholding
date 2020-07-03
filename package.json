@@ -1,7 +1,6 @@
 {
   "name": "bagofholding",
   "version": "1.0.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -76,7 +75,7 @@
   },
   "keywords": [],
   "author": "Darryl Walker <darryljwalker@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PenguinOfWar/bagofholding/issues"
   }
