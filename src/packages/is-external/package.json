@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-external",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "is-external.js",
   "scripts": {
