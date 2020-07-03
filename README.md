@@ -4,7 +4,7 @@ A magical grab bag of useful tools for the discerning developer.
 
 This project's github pages and local demo were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) ![Unit Tests](https://github.com/PenguinOfWar/bagofholding/workflows/Unit%20Tests/badge.svg) ![GitHub Pages](https://github.com/PenguinOfWar/bagofholding/workflows/GitHub%20Pages/badge.svg)
 
 ## Demos & Examples
 
@@ -12,7 +12,7 @@ The interactive demos for Reducks leverage `react`, `react-redux` and the wonder
 
 If you are integrating Reducks into a `react-redux` application I recommend browsing the source code of the demo pages.
 
-[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/) ![Unit Tests](https://github.com/PenguinOfWar/bagofholding/workflows/Unit%20Tests/badge.svg) ![GitHub Pages](https://github.com/PenguinOfWar/bagofholding/workflows/GitHub%20Pages/badge.svg)
+[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/) 
 
 ## Support
 
