@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts a string into a url safe slug 1`] = `"welcome-to-my-blog12"`;
+
+exports[`handles nasty strings gracefully 1`] = `"welcome-to-my-itrntinliztin-blog-about-internationalization"`;

@@ -1,0 +1,7 @@
+{
+  "name": "@bagofholding/strip-chars-url-safe",
+  "version": "0.1.5",
+  "main": "strip-chars-url-safe.js",
+  "author": "Darryl Walker <darryljwalker@gmail.com>",
+  "license": "MIT"
+}

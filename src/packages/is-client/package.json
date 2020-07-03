@@ -1,0 +1,7 @@
+{
+  "name": "@bagofholding/is-client",
+  "version": "0.1.5",
+  "main": "is-client.js",
+  "author": "Darryl Walker <darryljwalker@gmail.com>",
+  "license": "MIT"
+}

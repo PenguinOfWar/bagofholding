@@ -1,6 +1,9 @@
 import React from 'react';
 
 import IsExternal from '../../components/IsExternal';
+import Guid from '../../components/Guid';
+import IsClient from '../../components/IsClient';
+import StripChars from '../../components/StripChars';
 
 import './App.scss';
 
@@ -27,7 +30,7 @@ const App = () => {
               <li className="list-inline-item">
                 <a
                   className="btn btn-dark btn-lg"
-                  href="https://github.com/PenguinOfWar/reducks-redux-queue"
+                  href="https://github.com/PenguinOfWar/bagofholding"
                   target="_blank"
                   rel="noopener noreferrer"
                   role="button"
@@ -38,7 +41,7 @@ const App = () => {
               <li className="list-inline-item">
                 <a
                   className="btn btn-dark btn-lg"
-                  href="https://github.com/PenguinOfWar/reducks-redux-queue/issues"
+                  href="https://github.com/PenguinOfWar/bagofholding/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   role="button"
@@ -52,6 +55,15 @@ const App = () => {
       </div>
       <div className="row">
         <IsExternal />
+      </div>
+      <div className="row">
+        <Guid />
+      </div>
+      <div className="row">
+        <IsClient />
+      </div>
+      <div className="row">
+        <StripChars />
       </div>
     </div>
   );

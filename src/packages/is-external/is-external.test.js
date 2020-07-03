@@ -1,5 +1,4 @@
 import isExternal from './is-external';
-import { check } from 'prettier';
 
 it('returns true for an external link', () => {
   const checkLink = isExternal('http://google.com');
