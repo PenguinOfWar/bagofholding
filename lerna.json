@@ -3,15 +3,9 @@
   "version": "0.1.3",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "*.txt",
-        "test/**",
-        "**/test/**"
-      ]
+      "access": "public",
+      "ignoreChanges": ["*.md", "*.txt", "test/**", "**/test/**"]
     }
   },
-  "packages": [
-    "src/packages/*"
-  ]
+  "packages": ["src/packages/*"]
 }

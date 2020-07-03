@@ -1,7 +1,6 @@
 {
   "name": "@bagofholding/is-external",
   "version": "0.1.3",
-  "description": "",
   "main": "is-external.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +8,5 @@
   "keywords": [],
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",
-  "gitHead": "662e1e5a64be1bc5bec77b137da10f205d5ac06c"
+  "description": ""
 }
