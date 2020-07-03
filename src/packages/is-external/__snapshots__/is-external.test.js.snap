@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns false for a relative link 1`] = `false`;
+
+exports[`returns true for a link containing /pdf 1`] = `true`;
+
+exports[`returns true for a mailto 1`] = `true`;
+
+exports[`returns true for an external HTTPS link 1`] = `true`;
+
+exports[`returns true for an external link 1`] = `true`;
+
+exports[`returns true for an ftp link 1`] = `true`;
+
+exports[`returns true for an ftps link 1`] = `true`;

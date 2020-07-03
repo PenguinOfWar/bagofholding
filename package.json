@@ -1,6 +1,6 @@
 {
   "name": "bagofholding",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,10 +14,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lerna:list": "lerna list",
+    "lerna:bootstrap": "lerna bootstrap"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "no-var": "error",
+      "react/display-name": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -30,5 +40,43 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "eslint": "^6.6.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "history": "^5.0.0",
+    "jquery": "^3.5.1",
+    "lerna": "^3.22.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react-redux": "^7.2.0",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "redux-thunk": "^2.3.0",
+    "sass-lint": "^1.13.1",
+    "typescript": "^3.9.6"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenguinOfWar/bagofholding.git"
+  },
+  "keywords": [],
+  "author": "Darryl Walker <darryljwalker@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PenguinOfWar/bagofholding/issues"
   }
 }
