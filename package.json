@@ -16,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lerna:list": "lerna list",
-    "lerna:bootstrap": "lerna bootstrap"
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish"
   },
   "eslintConfig": {
     "extends": [
