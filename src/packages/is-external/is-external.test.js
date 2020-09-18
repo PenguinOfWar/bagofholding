@@ -28,6 +28,27 @@ it('returns true for an ftps link', () => {
   expect(checkLink).toMatchSnapshot();
 });
 
+it('returns true for an www. link', () => {
+  const checkLink = isExternal('www.google.com');
+
+  expect(checkLink).toBeTruthy();
+  expect(checkLink).toMatchSnapshot();
+});
+
+it('returns true for an .com .net and .co.uk link and false without', () => {
+  const checkLink = isExternal(
+    'google.com',
+    'google.co.uk',
+    'plus.net',
+    'gov.uk',
+    'pro.sony',
+    'japantimes.co.jp'
+  );
+
+  expect(checkLink).toBeTruthy();
+  expect(checkLink).toMatchSnapshot();
+});
+
 it('returns true for a mailto', () => {
   const checkLink = isExternal('mailto:darryl.walker@sony.com');
 
