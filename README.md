@@ -8,11 +8,7 @@ This project's github pages and local demo were bootstrapped with [Create React 
 
 ## Demos & Examples
 
-The interactive demos for Reducks leverage `react`, `react-redux` and the wonderful libraries `rsup-progress` and `react-toastr` to demonstrate the FIFO queuing system in action.
-
-If you are integrating Reducks into a `react-redux` application I recommend browsing the source code of the demo pages.
-
-[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/) 
+[Click here for demos and examples](https://penguinofwar.github.io/bagofholding/)
 
 ## Support
 

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CamelToKebab from '../../components/CamelToKebab';
 import IsExternal from '../../components/IsExternal';
 import Guid from '../../components/Guid';
 import IsClient from '../../components/IsClient';
@@ -52,6 +53,9 @@ const App = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="row">
+        <CamelToKebab />
       </div>
       <div className="row">
         <IsExternal />
