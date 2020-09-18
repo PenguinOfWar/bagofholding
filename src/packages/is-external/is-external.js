@@ -4,7 +4,8 @@ export default (to, customConditional) => {
   if (
     /^(f|ht)tps?:\/\//i.test(to.toLowerCase()) ||
     /^mailto:([^?]*)/.test(to.toLowerCase()) ||
-    /^(w|w)w.(.*)/.test(to.toLowerCase()) ||
+    /^ww(w|[0-9])(.)/.test(to.toLowerCase()) ||
+    /.(\.|a-zA-Z)/.test(to.toLowerCase()) ||
     (customConditional &&
       typeof (customConditional === 'function') &&
       customConditional(to))
