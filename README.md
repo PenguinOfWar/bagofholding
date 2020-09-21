@@ -10,17 +10,17 @@ This project's github pages and local demo were bootstrapped with [Create React 
 
 I hate repeating myself and common chunks of legacy code can be risky business down the line.
 
-This repo probably isn't for you if you've found your way here randomly, but if any of the scripts or libraries here are useful to you a star is always appreciate.
+This repo probably isn't for you if you've found your way here randomly, but if any of the scripts or libraries here are useful to you a star is always appreciated.
 
 ## Credit
 
-While a lot of this code is written by me or so generic as to be example code, I try to give credits where possible in the source of each individual package if I have used code from somebody else.
+While a lot of this code is written by me or so generic as to be example code, I try to give credits where possible in the source of each individual package if I have knowingly used code from somebody else.
 
 If you notice a missing credit, please create an issue or a PR.
 
 ## Security
 
-This monorepo manages multiple individual micro packages using Lerna. These micro packages are designed to be simple enough to fit on one screen. No compilation or mutation is provided to the source code before the package is deployed so what you see is what you get.
+This monorepo manages multiple individual micro packages using Lerna. These micro packages are designed to be simple enough to fit on one screen of code. No compilation or mutation is provided to the source code before the package is deployed so what you see is what you get.
 
 Each micro package strives to be free of any other dependencies. Any package with a dependency will specifically mention the direct dependecies on the individual package readmes.
 
