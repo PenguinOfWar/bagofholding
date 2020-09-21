@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recursively removes \`null\` and \`undefined\` properties from payload object 1`] = `4`;

@@ -5,6 +5,7 @@ import IsExternal from '../../components/IsExternal';
 import Guid from '../../components/Guid';
 import IsClient from '../../components/IsClient';
 import StripChars from '../../components/StripChars';
+import RemoveEmptyProps from '../../components/RemoveEmptyProps';
 
 import './App.scss';
 
@@ -53,6 +54,9 @@ const App = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="row">
+        <RemoveEmptyProps />
       </div>
       <div className="row">
         <CamelToKebab />

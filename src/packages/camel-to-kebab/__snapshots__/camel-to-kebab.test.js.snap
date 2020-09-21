@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows \`camelKebabsAnybody\` as \`camel-kebabs-anybody\` 1`] = `"camel-kebabs-anybody"`;
