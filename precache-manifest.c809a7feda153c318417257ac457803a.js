@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4926a3f8e50b7e9912cc4dfd2a5d0e2",
+    "revision": "49b1d71f6fa4f26efa084486423cb4c7",
     "url": "/bagofholding/index.html"
   },
   {
-    "revision": "970c88f17369be2960b2",
+    "revision": "9c3f496e35f6f92ab89e",
     "url": "/bagofholding/static/css/main.3f810b71.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bagofholding/static/js/2.fc188441.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "970c88f17369be2960b2",
-    "url": "/bagofholding/static/js/main.6acefb23.chunk.js"
+    "revision": "9c3f496e35f6f92ab89e",
+    "url": "/bagofholding/static/js/main.18600c0b.chunk.js"
   },
   {
     "revision": "93d34554380b176159fd",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bagofholding/static/css/main.3f810b71.chunk.css",
-    "main.js": "/bagofholding/static/js/main.6acefb23.chunk.js",
-    "main.js.map": "/bagofholding/static/js/main.6acefb23.chunk.js.map",
+    "main.js": "/bagofholding/static/js/main.18600c0b.chunk.js",
+    "main.js.map": "/bagofholding/static/js/main.18600c0b.chunk.js.map",
     "runtime-main.js": "/bagofholding/static/js/runtime-main.247eac61.js",
     "runtime-main.js.map": "/bagofholding/static/js/runtime-main.247eac61.js.map",
     "static/js/2.fc188441.chunk.js": "/bagofholding/static/js/2.fc188441.chunk.js",
     "static/js/2.fc188441.chunk.js.map": "/bagofholding/static/js/2.fc188441.chunk.js.map",
     "index.html": "/bagofholding/index.html",
-    "precache-manifest.5d98a1346a856613db1cde1dc6910b29.js": "/bagofholding/precache-manifest.5d98a1346a856613db1cde1dc6910b29.js",
+    "precache-manifest.c809a7feda153c318417257ac457803a.js": "/bagofholding/precache-manifest.c809a7feda153c318417257ac457803a.js",
     "service-worker.js": "/bagofholding/service-worker.js",
     "static/css/main.3f810b71.chunk.css.map": "/bagofholding/static/css/main.3f810b71.chunk.css.map",
     "static/js/2.fc188441.chunk.js.LICENSE.txt": "/bagofholding/static/js/2.fc188441.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.247eac61.js",
     "static/js/2.fc188441.chunk.js",
     "static/css/main.3f810b71.chunk.css",
-    "static/js/main.6acefb23.chunk.js"
+    "static/js/main.18600c0b.chunk.js"
   ]
 }
