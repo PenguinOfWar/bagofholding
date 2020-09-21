@@ -30,6 +30,8 @@ const RemoveEmptyProps = () => {
     )
   );
 
+  console.log(removeEmptyProps(JSON.parse(object)));
+
   return (
     <div className="container pb-4">
       <div className="row">
@@ -53,7 +55,16 @@ const RemoveEmptyProps = () => {
                         theme="monokai"
                         className="w-100"
                         onChange={value => {
-                          setObject(JSON.stringify(value, null, 2));
+                          try {
+                            const converted = JSON.stringify(
+                              JSON.parse(value),
+                              null,
+                              2
+                            );
+                            setObject(converted);
+                          } catch (err) {
+                            console.warn(err);
+                          }
                         }}
                         name="remove-empty-props"
                         defaultValue={object}
@@ -69,7 +80,7 @@ const RemoveEmptyProps = () => {
                         onChange={() => {}}
                         name="remove-empty-props"
                         value={JSON.stringify(
-                          removeEmptyProps(JSON.parse(object)),
+                          removeEmptyProps(JSON.parse(String(object))),
                           null,
                           2
                         )}

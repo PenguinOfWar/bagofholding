@@ -1,24 +1,33 @@
-import removeEmptyProps from './remove-empty-props';
+import removeEmptyProps, { isArray, isObject } from './remove-empty-props';
+
+const object = {
+  foo: null,
+  bar: undefined,
+  baz: '',
+  fab: false,
+  gib: '༼ つ ◕_◕ ༽つ',
+  array: [0, 0, 0],
+  object: {
+    one: 1,
+    two: '2',
+    three: Number('3'),
+    four: null,
+    five: undefined,
+    six: {},
+    seven: []
+  }
+};
 
 it('recursively removes `null` and `undefined` properties from payload object', () => {
-  const object = {
-    foo: null,
-    bar: undefined,
-    baz: '',
-    fab: false,
-    gib: '༼ つ ◕_◕ ༽つ',
-    mud: {
-      one: 1,
-      two: '2',
-      three: Number('3'),
-      four: null,
-      five: undefined,
-      six: {},
-      seven: []
-    }
-  };
+  expect(Object.keys(removeEmptyProps(object)).length).toBe(6);
+  expect(Object.keys(removeEmptyProps(object).object).length).toBe(6);
+  expect(Object.keys(removeEmptyProps(object)).length).toMatchSnapshot();
+});
 
-  expect(Object.keys(removeEmptyProps(object)).length).toBe(4);
-  expect(Object.keys(removeEmptyProps(object).mud).length).toBe(5);
+it('leaves `arrays` unmolested', () => {
+  expect(isArray(removeEmptyProps(object).array)).toBeTruthy();
+  expect(isArray(removeEmptyProps(object).object)).toBeFalsy();
+  expect(isObject(removeEmptyProps(object).object)).toBeTruthy();
+  expect(isObject(removeEmptyProps(object).array)).toBeTruthy();
   expect(Object.keys(removeEmptyProps(object)).length).toMatchSnapshot();
 });
