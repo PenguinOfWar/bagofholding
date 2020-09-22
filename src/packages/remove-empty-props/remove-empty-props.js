@@ -8,7 +8,8 @@ export const isObject = obj => {
 };
 
 export const isArray = object => {
-  return isObject(object) && object instanceof Array;
+  console.log(object, object instanceof Array, typeof object, isObject(object));
+  return object instanceof Array;
 };
 
 const removeEmptyProps = (object = {}) =>
