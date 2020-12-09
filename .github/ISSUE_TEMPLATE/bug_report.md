@@ -24,17 +24,17 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Environment (please complete the following information):**
- - OS: [e.g. iOS]
+**Dev Environment (please complete the following information if applicable):**
+ - OS: [e.g. MacOS Big Sur]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
+ - Node version (if applicable) [e.g. v14.15.0]
 
-**Smartphone (please complete the following information):**
+**User Environment (please complete the following information  if applicable):**
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
-- Node version (if applicable) [e.g. v14]
 
 **Additional context**
 Add any other context about the problem here.
