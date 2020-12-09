@@ -36,17 +36,25 @@ it('returns true for an www. link', () => {
 });
 
 it('returns true for an .com .net and .co.uk link and false without', () => {
-  const checkLink = isExternal(
+  const tests = [
     'google.com',
     'google.co.uk',
     'plus.net',
     'gov.uk',
     'pro.sony',
     'japantimes.co.jp'
-  );
+  ];
 
-  expect(checkLink).toBeTruthy();
-  expect(checkLink).toMatchSnapshot();
+  tests.map(test => {
+    const checkLink = isExternal(test);
+    const checkLinkFalse = isExternal(test.replace(/\./g, ''));
+
+    expect(checkLink).toBeTruthy();
+    expect(checkLinkFalse).toBeFalsy();
+
+    expect([checkLink, checkLinkFalse]).toMatchSnapshot();
+    return test;
+  });
 });
 
 it('returns true for a mailto', () => {
