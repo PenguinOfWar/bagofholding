@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/guid",
-  "version": "0.4.0",
+  "version": "0.5.7",
   "main": "guid.js",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT"
