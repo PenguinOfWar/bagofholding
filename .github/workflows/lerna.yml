@@ -2,8 +2,7 @@ name: Lerna
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [master, main]
     types: [closed]
 
 env:
