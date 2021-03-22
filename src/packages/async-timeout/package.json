@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/async-timeout",
-  "version": "0.5.14",
+  "version": "0.5.15",
   "main": "async-timeout.js",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",
