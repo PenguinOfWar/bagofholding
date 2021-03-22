@@ -17,7 +17,7 @@
     "lerna:list": "lerna list",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:publish": "lerna publish",
-    "lerna:publish:force": "lerna publish from-package"
+    "lerna:publish:ci": "lerna publish from-package --yes"
   },
   "eslintConfig": {
     "extends": [
