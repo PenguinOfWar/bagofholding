@@ -1,6 +1,6 @@
 {
   "name": "bagofholding",
-  "version": "0.5.12",
+  "version": "0.5.13",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,7 +17,7 @@
     "lerna:list": "lerna list",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:publish": "lerna publish",
-    "lerna:publish:ci": "lerna publish from-package --yes --no-verify-access"
+    "lerna:publish:ci": "lerna publish from-git --yes --no-verify-access"
   },
   "eslintConfig": {
     "extends": [
