@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/camel-to-kebab",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "main": "camel-to-kebab.js",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",

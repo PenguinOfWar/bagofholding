@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/remove-empty-props",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "main": "remove-empty-props.js",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",

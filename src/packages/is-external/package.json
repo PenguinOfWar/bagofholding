@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-external",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "main": "is-external.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

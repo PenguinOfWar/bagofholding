@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-client",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "main": "is-client.js",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",
