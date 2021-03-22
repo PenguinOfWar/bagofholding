@@ -1,6 +1,6 @@
 {
   "npmClient": "npm",
-  "version": "0.5.14",
+  "version": "0.5.15",
   "command": {
     "publish": {
       "access": "public",
