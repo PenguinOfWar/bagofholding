@@ -1,6 +1,21 @@
-// import timeout from './async-timeout';
+import timeout from './async-timeout';
 
-it.skip('returns true when the environment is a browser and window is defined', () => {
-  // expect(isClient()).toBeTruthy();
-  // expect(isClient()).toMatchSnapshot();
+it('waits 500 ms', async () => {
+  const start = performance.now();
+
+  await timeout(500);
+
+  const end = Math.ceil(performance.now() - start);
+
+  expect(end).toBeGreaterThanOrEqual(500);
+});
+
+it('waits 1000 ms', async () => {
+  const start = performance.now();
+
+  await timeout(1000);
+
+  const end = Math.ceil(performance.now() - start);
+
+  expect(end).toBeGreaterThanOrEqual(1000);
 });
