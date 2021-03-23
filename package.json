@@ -7,7 +7,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,7 +45,7 @@
   "devDependencies": {
     "ace-builds": "^1.4.12",
     "bootstrap": "^4.5.0",
-    "eslint": "^6.6.0",
+    "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-app": "^5.2.0",
     "eslint-loader": "3.0.3",
