@@ -4,7 +4,11 @@
 
 | Mono Version | Supported          |
 | -------      | ------------------ |
-| x.3.x        | :white_check_mark: |
+| x.6.x        | :white_check_mark: |
+| x.5.x        | :x: |
+| x.4.x        | :x: |
+| x.3.x        | :x: |
+| x.2.x        | :x: |
 
 ## Reporting a Vulnerability
 
