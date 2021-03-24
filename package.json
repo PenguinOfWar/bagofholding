@@ -68,6 +68,7 @@
     "redux": "^4.0.5",
     "redux-observable": "^1.2.0",
     "redux-thunk": "^2.3.0",
+    "rsup-progress": "^1.4.0",
     "sass-lint": "^1.13.1",
     "typescript": "^3.9.6"
   },

@@ -30,8 +30,6 @@ const RemoveEmptyProps = () => {
     )
   );
 
-  console.log(removeEmptyProps(JSON.parse(object)));
-
   return (
     <div className="container pb-4">
       <div className="row">
@@ -42,9 +40,9 @@ const RemoveEmptyProps = () => {
                 @bagofholding/remove-empty-props
               </h2>
               <p className="card-text">
-                Enter some <kbd>JSON</kbd> below and watch the <kbd>null</kbd>{' '}
-                and <kbd>undefinied</kbd> properties magically disappear...
-                recursively!
+                Enter some <code>JSON</code> below and watch the{' '}
+                <code>null</code> and <code>undefinied</code> properties{' '}
+                magically disappear... recursively!
               </p>
               <form>
                 <div className="row">
