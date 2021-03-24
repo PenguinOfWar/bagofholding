@@ -1,7 +1,7 @@
 name: GitHub Pages
 on:
-  release:
-    types: [published]
+  push:
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
