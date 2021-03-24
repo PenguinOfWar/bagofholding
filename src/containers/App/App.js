@@ -8,6 +8,7 @@ import StripChars from '../../components/StripChars';
 import RemoveEmptyProps from '../../components/RemoveEmptyProps';
 
 import './App.scss';
+import AsyncTimeout from '../../components/AsyncTimeout';
 
 const App = () => {
   return (
@@ -72,6 +73,9 @@ const App = () => {
       </div>
       <div className="row">
         <StripChars />
+      </div>
+      <div className="row">
+        <AsyncTimeout />
       </div>
     </div>
   );
