@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/bagofholding/static/css/main.18bc34a0.chunk.css",
-    "main.js": "/bagofholding/static/js/main.4cf1566e.chunk.js",
-    "main.js.map": "/bagofholding/static/js/main.4cf1566e.chunk.js.map",
-    "runtime-main.js": "/bagofholding/static/js/runtime-main.2f6f8f64.js",
-    "runtime-main.js.map": "/bagofholding/static/js/runtime-main.2f6f8f64.js.map",
-    "static/js/2.9f1936f8.chunk.js": "/bagofholding/static/js/2.9f1936f8.chunk.js",
-    "static/js/2.9f1936f8.chunk.js.map": "/bagofholding/static/js/2.9f1936f8.chunk.js.map",
+    "main.css": "/bagofholding/static/css/main.833e09fc.css",
+    "main.js": "/bagofholding/static/js/main.8279d036.js",
     "index.html": "/bagofholding/index.html",
-    "static/css/main.18bc34a0.chunk.css.map": "/bagofholding/static/css/main.18bc34a0.chunk.css.map",
-    "static/js/2.9f1936f8.chunk.js.LICENSE.txt": "/bagofholding/static/js/2.9f1936f8.chunk.js.LICENSE.txt"
+    "main.833e09fc.css.map": "/bagofholding/static/css/main.833e09fc.css.map",
+    "main.8279d036.js.map": "/bagofholding/static/js/main.8279d036.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f6f8f64.js",
-    "static/js/2.9f1936f8.chunk.js",
-    "static/css/main.18bc34a0.chunk.css",
-    "static/js/main.4cf1566e.chunk.js"
+    "static/css/main.833e09fc.css",
+    "static/js/main.8279d036.js"
   ]
 }
