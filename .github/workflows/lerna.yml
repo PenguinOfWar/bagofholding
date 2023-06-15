@@ -15,11 +15,11 @@ jobs:
     steps:
       - uses: fkirc/skip-duplicate-actions@master
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Node ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 18
           registry-url: 'https://npm.pkg.github.com'
       - name: Git Identity
         run: |
@@ -29,6 +29,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install
+        run: npm install -g npm@9
         run: npm install --no-package-lock
       # Define ${CURRENT_VERSION}
       - name: Set Current Version
