@@ -1,4 +1,4 @@
-export default (to, customConditional) => {
+export default function isExternal(to, customConditional) {
   let isExternal = false;
 
   if (
@@ -13,4 +13,4 @@ export default (to, customConditional) => {
     isExternal = true;
   }
   return isExternal;
-};
+}
