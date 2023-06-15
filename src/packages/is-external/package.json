@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-external",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "main": "is-external.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,6 @@
   ],
   "license": "MIT",
   "description": "",
-  "gitHead": "8aa219000af5d0bc0f081e5a84d6d3a815c9131e"
+  "gitHead": "8aa219000af5d0bc0f081e5a84d6d3a815c9131e",
+  "type": "module"
 }
