@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/strip-chars-url-safe",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "strip-chars-url-safe.js",
   "type": "module",
   "types": "./strip-chars-url-safe.d.ts",

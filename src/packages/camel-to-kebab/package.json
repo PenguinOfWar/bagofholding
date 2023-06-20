@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/camel-to-kebab",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "camel-to-kebab.js",
   "type": "module",
   "types": "./camel-to-kebab.d.ts",

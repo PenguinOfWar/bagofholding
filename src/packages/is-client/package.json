@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-client",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "is-client.js",
   "type": "module",
   "types": "./is-client.d.ts",

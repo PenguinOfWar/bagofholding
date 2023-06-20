@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/async-timeout",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "./async-timeout.js",
   "type": "module",
   "types": "./async-timeout.d.ts",

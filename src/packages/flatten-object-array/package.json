@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/flatten-object-array",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "flatten-object-array.js",
   "type": "module",
   "types": "./flatten-object-array.d.ts",

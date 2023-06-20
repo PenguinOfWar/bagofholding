@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/remove-empty-props",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "remove-empty-props.js",
   "type": "module",
   "types": "./remove-empty-props.d.ts",

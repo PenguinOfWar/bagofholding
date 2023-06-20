@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/guid",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "main": "guid.js",
   "type": "module",
   "types": "./guid.d.ts",
