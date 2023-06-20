@@ -1,9 +1,10 @@
 {
   "name": "@bagofholding/camel-to-kebab",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "main": "camel-to-kebab.js",
+  "type": "module",
+  "types": "./camel-to-kebab.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",
-  "gitHead": "8aa219000af5d0bc0f081e5a84d6d3a815c9131e",
-  "type": "module"
+  "gitHead": "8aa219000af5d0bc0f081e5a84d6d3a815c9131e"
 }

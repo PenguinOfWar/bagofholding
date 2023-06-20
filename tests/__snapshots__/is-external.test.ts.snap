@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns false for a relative link 1`] = `false`;
+
+exports[`returns true for a link containing /pdf 1`] = `true`;
+
+exports[`returns true for a mailto 1`] = `true`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 1`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 2`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 3`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 4`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 5`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an .com .net and .co.uk link and false without 6`] = `
+[
+  true,
+  false,
+]
+`;
+
+exports[`returns true for an external HTTPS link 1`] = `true`;
+
+exports[`returns true for an external link 1`] = `true`;
+
+exports[`returns true for an ftp link 1`] = `true`;
+
+exports[`returns true for an ftps link 1`] = `true`;
+
+exports[`returns true for an www. link 1`] = `true`;

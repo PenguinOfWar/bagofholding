@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns true when the environment is a browser and window is defined 1`] = `true`;

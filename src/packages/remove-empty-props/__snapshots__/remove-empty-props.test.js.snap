@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`leaves \`arrays\` unmolested 1`] = `6`;
-
-exports[`recursively removes \`null\` and \`undefined\` properties from payload object 1`] = `6`;

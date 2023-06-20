@@ -1,3 +1,3 @@
 /// <reference types="typescript" />
 
-declare module '@bagofholding/async-timeout';
+export default function asyncTimeout(milliseconds: number): Promise<any>;

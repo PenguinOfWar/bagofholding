@@ -12,14 +12,14 @@ export const fromEntries = iterable => {
 };
 
 export const isObject = obj => {
-  return obj && typeof obj === 'object';
+  return Boolean(obj && typeof obj === 'object');
 };
 
-export const isArray = object => {
-  return object instanceof Array;
+export const isArray = array => {
+  return Boolean(array instanceof Array);
 };
 
-const removeEmptyProps = (object = {}) => {
+export default function removeEmptyProps(object) {
   if (!Object.fromEntries || typeof Object.fromEntries !== 'function') {
     Object.fromEntries = fromEntries;
   }
@@ -37,6 +37,4 @@ const removeEmptyProps = (object = {}) => {
         return [k, v];
       })
   );
-};
-
-export default removeEmptyProps;
+}
