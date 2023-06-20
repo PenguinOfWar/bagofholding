@@ -1,3 +1,3 @@
 export default function isClient() {
-  return typeof window !== 'undefined' && window.document;
+  return Boolean(typeof window !== 'undefined' && window.document);
 }

@@ -1,9 +1,9 @@
 {
-  "name": "@bagofholding/strip-chars-url-safe",
+  "name": "@bagofholding/flatten-object-array",
   "version": "0.8.1",
-  "main": "strip-chars-url-safe.js",
+  "main": "flatten-object-array.js",
   "type": "module",
-  "types": "./strip-chars-url-safe.d.ts",
+  "types": "./flatten-object-array.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",
   "gitHead": "0672202b8af03bfc53520b9aaad3b31676c7f106"
