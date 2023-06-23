@@ -3,6 +3,8 @@ import removeEmptyProps, {
   isObject
 } from '../src/packages/remove-empty-props';
 
+import * as funcs from '../src/packages/remove-empty-props';
+
 const object = {
   foo: null,
   bar: undefined,

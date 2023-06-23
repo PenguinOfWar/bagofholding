@@ -2,7 +2,6 @@
   "name": "@bagofholding/remove-empty-props",
   "version": "0.8.1",
   "main": "remove-empty-props.js",
-  "type": "module",
   "types": "./remove-empty-props.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",

@@ -2,7 +2,6 @@
   "name": "@bagofholding/flatten-object-array",
   "version": "0.8.1",
   "main": "flatten-object-array.js",
-  "type": "module",
   "types": "./flatten-object-array.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",

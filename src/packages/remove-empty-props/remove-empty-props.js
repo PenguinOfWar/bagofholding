@@ -4,22 +4,22 @@
  * Modifications to resolve fromEntries issues in node 10: fromentries. MIT License. Feross Aboukhadijeh <https://feross.org/opensource>
  */
 
-export const fromEntries = iterable => {
+const fromEntries = iterable => {
   return [...iterable].reduce((obj, [key, val]) => {
     obj[key] = val;
     return obj;
   }, {});
 };
 
-export const isObject = obj => {
+const isObject = obj => {
   return Boolean(obj && typeof obj === 'object');
 };
 
-export const isArray = array => {
+const isArray = array => {
   return Boolean(array instanceof Array);
 };
 
-export default function removeEmptyProps(object) {
+const exportModule = (module.exports = function removeEmptyProps(object) {
   if (!Object.fromEntries || typeof Object.fromEntries !== 'function') {
     Object.fromEntries = fromEntries;
   }
@@ -37,4 +37,8 @@ export default function removeEmptyProps(object) {
         return [k, v];
       })
   );
-}
+});
+
+exportModule.fromEntries = fromEntries;
+exportModule.isObject = isObject;
+exportModule.isArray = isArray;

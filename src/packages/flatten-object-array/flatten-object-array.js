@@ -6,7 +6,7 @@
  * @returns
  */
 
-export default function flattenObjectArray(property, array) {
+module.exports = function flattenObjectArray(property, array) {
   let children = [];
 
   if (!array || array.length === 0) {
@@ -25,4 +25,4 @@ export default function flattenObjectArray(property, array) {
   );
 
   return result;
-}
+};

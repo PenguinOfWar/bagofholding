@@ -2,7 +2,6 @@
   "name": "@bagofholding/is-client",
   "version": "0.8.1",
   "main": "is-client.js",
-  "type": "module",
   "types": "./is-client.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
   "license": "MIT",

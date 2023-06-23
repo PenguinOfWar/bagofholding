@@ -32,7 +32,7 @@ function getPropByString(obj, propString) {
   return obj[props[i]];
 }
 
-export default function treeFromFlatArray(
+module.exports = function treeFromFlatArray(
   items,
   idProp,
   parentIdProp,
@@ -74,4 +74,4 @@ export default function treeFromFlatArray(
     }
   }
   return tree;
-}
+};
