@@ -2,7 +2,7 @@
 
 A magical grab bag of useful tools for the discerning developer.
 
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) ![Unit Tests](https://github.com/PenguinOfWar/bagofholding/workflows/Unit%20Tests/badge.svg) ![GitHub Pages](https://github.com/PenguinOfWar/bagofholding/workflows/GitHub%20Pages/badge.svg)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) ![Unit Tests](https://github.com/PenguinOfWar/bagofholding/workflows/Unit%20Tests/badge.svg) [![Deploy Next.js site to Pages](https://github.com/PenguinOfWar/bagofholding/actions/workflows/nextjs.yml/badge.svg)](https://github.com/PenguinOfWar/bagofholding/actions/workflows/nextjs.yml)
 
 ## Why?
 
