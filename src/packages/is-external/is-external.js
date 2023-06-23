@@ -1,4 +1,4 @@
-export default function isExternal(to, customConditional) {
+module.exports = function isExternal(to, customConditional) {
   let isExternal = false;
 
   if (
@@ -13,4 +13,4 @@ export default function isExternal(to, customConditional) {
     isExternal = true;
   }
   return isExternal;
-}
+};

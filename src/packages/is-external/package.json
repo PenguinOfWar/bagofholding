@@ -1,8 +1,7 @@
 {
   "name": "@bagofholding/is-external",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "main": "is-external.js",
-  "type": "module",
   "types": "./is-external.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
