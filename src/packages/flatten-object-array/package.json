@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/flatten-object-array",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "main": "flatten-object-array.js",
   "types": "./flatten-object-array.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
