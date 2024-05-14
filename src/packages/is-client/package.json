@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/is-client",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "main": "is-client.js",
   "types": "./is-client.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",

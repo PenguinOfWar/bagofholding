@@ -27,6 +27,7 @@ const exportModule = (module.exports = function removeEmptyProps(object) {
   return Object.fromEntries(
     Object.entries(object)
       .filter(([_k, v]) => v !== null)
+      .filter(([_k, v]) => v !== undefined)
       .map(([k, v]) => {
         if (isArray(v)) {
           return [k, v];

@@ -3,8 +3,6 @@ import removeEmptyProps, {
   isObject
 } from '../src/packages/remove-empty-props';
 
-import * as funcs from '../src/packages/remove-empty-props';
-
 const object = {
   foo: null,
   bar: undefined,
@@ -18,13 +16,14 @@ const object = {
     three: Number('3'),
     four: null,
     five: undefined,
-    six: {},
-    seven: []
+    six: false,
+    seven: [],
+    eight: {}
   }
 };
 
 it('recursively removes `null` and `undefined` properties from payload object', () => {
-  expect(Object.keys(removeEmptyProps(object)).length).toBe(6);
+  expect(Object.keys(removeEmptyProps(object)).length).toBe(5);
   expect(Object.keys(removeEmptyProps(object).object).length).toBe(6);
   expect(Object.keys(removeEmptyProps(object)).length).toMatchSnapshot();
 });

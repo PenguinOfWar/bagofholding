@@ -41,8 +41,16 @@ const RemoveEmptyProps = () => {
               </h2>
               <p className="card-text">
                 Enter some <code>JSON</code> below and watch the{' '}
-                <code>null</code> and <code>undefined</code> properties{' '}
+                <code>null</code> and <code>undefined</code> properties
                 magically disappear... recursively!
+              </p>
+              <p className="card-text">
+                <em>
+                  Note: due to a limitation of the editor library and the use of{' '}
+                  <code>JSON</code>, you cannot put <code>undefined</code> in
+                  the editor, however the library itself will handle those
+                  values just fine.
+                </em>
               </p>
               <form>
                 <div className="row">

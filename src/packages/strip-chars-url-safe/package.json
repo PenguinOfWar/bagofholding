@@ -1,6 +1,6 @@
 {
   "name": "@bagofholding/strip-chars-url-safe",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "main": "strip-chars-url-safe.js",
   "types": "./strip-chars-url-safe.d.ts",
   "author": "Darryl Walker <darryljwalker@gmail.com>",
